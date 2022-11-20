@@ -1,0 +1,462 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*----- Сетка ------*/
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+.padding-main {
+    padding: 40px 0 180px 0;
+}
+.padding-sections {
+    padding: 180px 0 180px 0;
+}
+
+
+
+/*------- 4 колончатый макет ------- */
+
+
+.cols {
+    padding-top: 80px;
+    text-align: center;
+}
+.cols img {
+    padding-bottom: 25px;
+}
+.col1, .col2, .col3, .col4 {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 70px;
+    width: 20%;
+    line-height: 50px;
+}
+.col4 {
+    margin-right: 0;
+}
+
+
+/*------- 2 колончатый макет ------*/
+
+
+.block img {
+    float: left;
+    margin-right: 10%;
+    width: 140px;
+}
+q {
+    display: block;
+    text-align: left;
+    font-family:  "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 14px;
+    font-style: italic;
+}
+.sub-block {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 32%;
+}
+.sub-block h3 {
+    font-size: 35px;
+    text-align: left;
+}
+.sub-block p {
+    font-size: 28px;
+    text-align: left;
+    color: #fcd397;
+}
+.separat {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.col-1, .col-2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    margin-right: 10%;
+    padding-top: 70px;
+}
+.col-2 {
+    margin-right: 0;
+}
+
+
+/*----- Текст -------*/
+
+a.buttons {
+    display: block;
+    width: 20%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    transition: 0.2s;
+}
+h1, h2, h3, p {
+    text-align: center;
+}
+p {
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 14px;
+}
+h3 {
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2 {
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100px;
+}
+h1 {
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.text-color-1 {
+    color: #fff;
+}
+.text-color-2 {
+    color: #000;
+}
+
+/*------- Buttons -------*/
+
+.button-1 {
+    background: #eb7d4b;
+}
+.button-1:hover {
+    background: #17c2a4;
+}
+.button-3 {
+    background: #30bae7;
+}
+.button-3:hover {
+    background: #eb7d4b;
+}
+/*------ First Section ---------*/
+
+.first-section {
+    background: #87509c;
+}
+.logo img {
+    float: left;
+    width: 150px;
+}
+.main-menu {
+    padding-top: 1%;
+    text-align: right;
+}
+.main-menu li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    margin-right: 40px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.main-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+    cursor: pointer;
+}
+
+/*----- Second section -----*/
+
+.second-section {
+    background: #17c2a4;
+}
+
+/*------- Third section -----*/
+
+.third-section {
+    background: #e7f1f8;
+}
+p.prof {
+    margin-top: -20px;
+    color: #30bae7;
+}
+.icons {
+    padding-top: 20px;
+}
+.icons svg {
+    width: 32px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.icons svg:hover { 
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+/*------- Fourth section -------*/
+
+.fourth-section {
+    background: #ffffff;
+}
+.h3-4section {
+    font-size: 28px;
+    margin-top: -20px;
+}
+
+
+/*-------- Fifth section --------*/
+
+.fifth-section {
+    background: #ffdd99;
+}
+.tabs-items {
+    margin-top: 50px;
+    text-align: center;
+}
+.tabs-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #514c43;
+    padding: 0 20px 0 20px;
+    background: rgba(0, 0, 0, 0.153);
+    border-radius: 3px;
+    margin-right: 2%;
+    transition: 0.2s;
+}
+.tabs-items a:last-child {
+    margin: 0;
+}
+.tabs-items a:hover {
+    background: #fff;
+}
+.tabs-content {
+    margin-top: 30px;
+    display: none;
+}
+.tabs {
+    padding-top: 150px;
+    text-align: center;
+    line-height: 40px;
+}
+.tabs img {
+    width: 800px;
+}
+.tabs h2 {
+    font-size: 40px;
+}
+.tabs-content h3 {
+    width: 85%;
+    padding-top: 20px;
+}
+.tabs-content:target {
+    display: block;
+}
+
+/*------- Sixth section ------*/
+
+.sixth-section {
+    background: #d74680;
+}
+
+/*---- Seventh section -----*/
+
+.seventh-section {
+    background: #3c5499;
+}
+
+form {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+input, textarea {
+    background: #273a71;
+    border-radius: 5px;
+    padding: 20px;
+}
+input::placeholder, textarea::placeholder {
+    color: #ffffff;
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+input {
+    width: 35%;
+    margin: 0 10px 20px 10px;
+}
+textarea {
+    width: 75%;
+}
+
+/*----- Footer -------*/
+
+.footer {
+    background: #344b8e;
+    padding: 40px 0 40px 0;
+}
+.footer-menu {
+    text-align: center;
+}
+.footer-menu li {
+    display: inline-block;
+    font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 5%;
+    transition: 0.2s;
+}
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+.footer-menu li:hover {
+    color: #30bae7;
+    cursor: pointer;
+}
