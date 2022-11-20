@@ -11,22 +11,26 @@
 </head>
 
 <body>
-    <section class="first-section">
-        <div class="container padding-main">
+    <header class="first-section sticky-menu">
+        <div class="container">
             <div class="logo clearfix">
                 <p><img src="assets/img/logo.png" alt="Cuda"></p>
             </div>
             <div class="main-nav">
                 <nav>
                     <ul class="main-menu">
-                        <li>home</li>
-                        <li>about</li>
-                        <li>work</li>
-                        <li>blog</li>
-                        <li>contact</li>
+                        <a href="#header"><li>home</li></a>
+                        <a href="#about"><li>about</li></a>
+                        <a href="#work"><li>work</li></a>
+                        <a href="#blog"><li>blog</li></a>
+                        <a href="#contact"><li>contact</li></a>
                     </ul>
                 </nav>
             </div>
+        </div>
+    </header>
+    <section id="header" class="first-section">
+        <div class="container padding-main">
             <h1>Hi there! We are the new kids on the block<br>
                 and we build awesome websites and mobile apps.</h1>
             <a class="buttons button-1" href="#">work with us</a>
@@ -66,7 +70,7 @@
                     </div>
                 </div>
     </section>
-    <section class="third-section">
+    <section id="contact" class="third-section">
         <div class="container padding-sections">
             <h2>MEET OUR BEAUTIFUL TEAM</h2>
             <hr width="10%" color="black">
@@ -151,7 +155,7 @@
             </div>
         </div>
     </section>
-    <section class="fifth-section">
+    <section id="work" class="fifth-section">
         <div class="container padding-sections text-color-2">
             <h2>OUR PORTFOLIO</h2>
             <hr width="10%" color="black">
@@ -196,7 +200,7 @@
             </div>
         </div>
     </section>
-    <section class="sixth-section">
+    <section id="about" class="sixth-section">
         <div class="container padding-sections text-color-1">
             <h2>WHAT POEPLE SAY ABOUT US</h2>
             <hr width="10%" color="black">
@@ -258,7 +262,7 @@
             <a class="buttons button-3" href="#">SEND MESSAGE</a>
         </div>
     </section>
-    <section class="footer">
+    <section id="blog" class="footer">
         <div class="container text-color-1">
             <nav>
                 <ul class="footer-menu">
