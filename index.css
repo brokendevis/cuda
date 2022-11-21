@@ -135,6 +135,10 @@ table {
 
 /*----- Сетка ------*/
 
+
+html {
+    scroll-behavior: smooth;
+}
 .container {
     width: 1400px;
     margin: auto;
