@@ -173,34 +173,7 @@ table {
 /*------- 2 колончатый макет ------*/
 
 
-.block img {
-    float: left;
-    margin-right: 10%;
-    width: 140px;
-}
-q {
-    display: block;
-    text-align: left;
-    font-family:  "Titillium Web", Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    line-height: 35px;
-    padding-top: 14px;
-    font-style: italic;
-}
-.sub-block {
-    width: 50%;
-    padding-top: 30px;
-    padding-left: 32%;
-}
-.sub-block h3 {
-    font-size: 35px;
-    text-align: left;
-}
-.sub-block p {
-    font-size: 28px;
-    text-align: left;
-    color: #fcd397;
-}
+
 .separat {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -291,7 +264,7 @@ h1 {
 }
 .logo img {
     float: left;
-    width: 150px;
+    width: 130px;
 }
 .sticky-menu {
     position: sticky;
@@ -299,7 +272,7 @@ h1 {
     padding: 5px 0 20px 0;
 }
 .main-menu {
-    padding-top: 1%;
+    padding-top: 0.5%;
     text-align: right;
 }
 .main-menu li {
@@ -410,6 +383,34 @@ p.prof {
 
 .sixth-section {
     background: #d74680;
+}
+.block img {
+    float: left;
+    margin-right: 10%;
+    width: 140px;
+}
+q {
+    display: block;
+    text-align: left;
+    font-family:  "Titillium Web", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    padding-top: 14px;
+    font-style: italic;
+}
+.sub-block {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 32%;
+}
+.sub-block h3 {
+    font-size: 35px;
+    text-align: left;
+}
+.sub-block p {
+    font-size: 28px;
+    text-align: left;
+    color: #fcd397;
 }
 
 /*---- Seventh section -----*/
